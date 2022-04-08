@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649409960542' stop='1649409999762'>
+    <name>createcontactwithlastname</name>
+    <title>createcontactwithlastname</title>
+    <test-cases>
+        <test-case start='1649409960543' status='broken' stop='1649409999759'>
+            <name>createcontactwithlastnametest</name>
+            <title>createcontactwithlastnametest</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d4a8e1e3-7e51-417b-8310-95aca4c76f4b-attachment.png' type='image/png' size='148851'/>
+            </attachments>
+            <failure>
+                <message>failed</message>
+                <stack-trace>AssertionError: failed
+                    at Context.&lt;anonymous> (C:\Users\user\Desktop\webdriverio\test\specs\ContactTests\createcontactwithlastname.js:19:22)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

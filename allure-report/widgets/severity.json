@@ -1,0 +1,11 @@
+[ {
+  "uid" : "f597f71234a95313",
+  "name" : "createcontactwithlastnametest",
+  "time" : {
+    "start" : 1649409960543,
+    "stop" : 1649409999759,
+    "duration" : 39216
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
