@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649740410307' stop='1649740430877'>
+    <name>getTriangleType</name>
+    <title>getTriangleType</title>
+    <test-cases>
+        <test-case start='1649740410307' status='broken' stop='1649740430873'>
+            <name>Should return the type of the triangle according to the values of each side</name>
+            <title>Should return the type of the triangle according to the values of each side</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2f806c45-183f-4f2f-b3be-bbf246cf39fe-attachment.png' type='image/png' size='105998'/>
+            </attachments>
+            <failure>
+                <message>getTriangleType is not defined</message>
+                <stack-trace>ReferenceError: getTriangleType is not defined
+                    at C:\Users\user\Desktop\webdriverio\test\specs\dataprovider.js:25:24
+                    at Array.forEach (&lt;anonymous>)
+                    at Context.&lt;anonymous> (C:\Users\user\Desktop\webdriverio\test\specs\dataprovider.js:24:12)
+                    at Context.executeAsync (C:\Users\user\Desktop\webdriverio\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\user\Desktop\webdriverio\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

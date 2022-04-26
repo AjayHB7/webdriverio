@@ -1,0 +1,182 @@
+{
+  "uid" : "81308a1c4297f3fa",
+  "name" : "to check checkbox",
+  "fullName" : "topickcurrentdate.to check checkbox",
+  "historyId" : "1376e60a0ee20257e8c75166c75bb07f",
+  "time" : {
+    "start" : 1649834649132,
+    "stop" : 1649834662716,
+    "duration" : 13584
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testClass",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testMethod",
+    "value" : "to check checkbox"
+  }, {
+    "name" : "package",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c851a6239ae0b03b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649834471918,
+        "stop" : 1649834486316,
+        "duration" : 14398
+      }
+    }, {
+      "uid" : "4602daa8e3c26e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649834426409,
+        "stop" : 1649834439964,
+        "duration" : 13555
+      }
+    }, {
+      "uid" : "4b2f08066f5c023e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649834324894,
+        "stop" : 1649834341996,
+        "duration" : 17102
+      }
+    }, {
+      "uid" : "c92b487378680604",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649834250541,
+        "stop" : 1649834269203,
+        "duration" : 18662
+      }
+    }, {
+      "uid" : "f30b2ac598f231ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649834187280,
+        "stop" : 1649834201176,
+        "duration" : 13896
+      }
+    }, {
+      "uid" : "52bf9167a2776d8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649833841404,
+        "stop" : 1649833865624,
+        "duration" : 24220
+      }
+    }, {
+      "uid" : "b29e595e71152818",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649833674721,
+        "stop" : 1649833698824,
+        "duration" : 24103
+      }
+    }, {
+      "uid" : "f86902367aa20475",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649833208628,
+        "stop" : 1649833243212,
+        "duration" : 34584
+      }
+    }, {
+      "uid" : "704dbf467f742caa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649833135809,
+        "stop" : 1649833171537,
+        "duration" : 35728
+      }
+    }, {
+      "uid" : "b6e462d6c7215d2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649832930025,
+        "stop" : 1649832954509,
+        "duration" : 24484
+      }
+    }, {
+      "uid" : "5d38dc86ca3da1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649832806660,
+        "stop" : 1649832833087,
+        "duration" : 26427
+      }
+    }, {
+      "uid" : "d86465ec0ef98745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649832727745,
+        "stop" : 1649832752661,
+        "duration" : 24916
+      }
+    }, {
+      "uid" : "620af2509034aad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649832574928,
+        "stop" : 1649832599956,
+        "duration" : 25028
+      }
+    }, {
+      "uid" : "f7332caab5c7931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649832434460,
+        "stop" : 1649832459927,
+        "duration" : 25467
+      }
+    }, {
+      "uid" : "b0893a427b1c25e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649832414955,
+        "stop" : 1649832415225,
+        "duration" : 270
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81308a1c4297f3fa.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

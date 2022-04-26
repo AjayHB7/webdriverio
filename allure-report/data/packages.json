@@ -2,25 +2,101 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "createcontactwithlastname",
+    "name" : "getTriangleType",
     "children" : [ {
-      "name" : "createcontactwithlastnametest",
-      "uid" : "f597f71234a95313",
-      "parentUid" : "67211d684e01ec76f5527851314c5254",
+      "name" : "Should return the type of the triangle according to the values of each side",
+      "uid" : "ec405c0d1fd867cb",
+      "parentUid" : "7f2dbeda6981ac54bd8a904fa9b3b403",
       "status" : "broken",
       "time" : {
-        "start" : 1649409960543,
-        "stop" : 1649409999759,
-        "duration" : 39216
+        "start" : 1649740635336,
+        "stop" : 1649740635761,
+        "duration" : 425
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 2,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    } ],
+    "uid" : "7f2dbeda6981ac54bd8a904fa9b3b403"
+  }, {
+    "name" : "booking",
+    "children" : [ {
+      "name" : "flipkart",
+      "uid" : "2b25826c2aab0473",
+      "parentUid" : "d615cf41e77ff3b2b4829ee3f47e2ea7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1649764488850,
+        "stop" : 1649764514882,
+        "duration" : 26032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
       "retriesStatusChange" : true,
       "parameters" : [ "chrome-100.0.4896.75" ]
     } ],
-    "uid" : "67211d684e01ec76f5527851314c5254"
+    "uid" : "d615cf41e77ff3b2b4829ee3f47e2ea7"
+  }, {
+    "name" : "topickcurrentdate",
+    "children" : [ {
+      "name" : "to check checkbox",
+      "uid" : "81308a1c4297f3fa",
+      "parentUid" : "c63bdb36c0450c663b87bfd43492bfde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649834649132,
+        "stop" : 1649834662716,
+        "duration" : 13584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "currentdate",
+      "uid" : "e924867d8e945010",
+      "parentUid" : "c63bdb36c0450c663b87bfd43492bfde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649835238084,
+        "stop" : 1649835247650,
+        "duration" : 9566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "screenshotofcamera",
+      "uid" : "6fc0d6a81f712d1",
+      "parentUid" : "c63bdb36c0450c663b87bfd43492bfde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649842073948,
+        "stop" : 1649842085267,
+        "duration" : 11319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    } ],
+    "uid" : "c63bdb36c0450c663b87bfd43492bfde"
   } ]
 }

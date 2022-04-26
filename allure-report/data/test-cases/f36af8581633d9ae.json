@@ -1,0 +1,80 @@
+{
+  "uid" : "f36af8581633d9ae",
+  "name" : "screenshotofcamera",
+  "fullName" : "topickcurrentdate.screenshotofcamera",
+  "historyId" : "4ac452fac7abb22cbddfff37ac83c0d3",
+  "time" : {
+    "start" : 1649840966739,
+    "stop" : 1649840978446,
+    "duration" : 11707
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "camimgeles.moveTo is not a function",
+  "statusTrace" : "TypeError: camimgeles.moveTo is not a function\n                    at Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\topickcurrentdate.js:64:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "camimgeles.moveTo is not a function",
+    "statusTrace" : "TypeError: camimgeles.moveTo is not a function\n                    at Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\topickcurrentdate.js:64:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "da30ecc65550c155",
+      "name" : "Screenshot",
+      "source" : "da30ecc65550c155.png",
+      "type" : "image/png",
+      "size" : 575932
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testClass",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenshotofcamera"
+  }, {
+    "name" : "package",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f36af8581633d9ae.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

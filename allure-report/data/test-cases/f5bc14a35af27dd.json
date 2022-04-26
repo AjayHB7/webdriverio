@@ -1,0 +1,80 @@
+{
+  "uid" : "f5bc14a35af27dd",
+  "name" : "screenshotofcamera",
+  "fullName" : "topickcurrentdate.screenshotofcamera",
+  "historyId" : "4ac452fac7abb22cbddfff37ac83c0d3",
+  "time" : {
+    "start" : 1649837103980,
+    "stop" : 1649837109523,
+    "duration" : 5543
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Malformed type for \"elementId\" parameter of command takeElementScreenshot\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                ",
+  "statusTrace" : "Error: Malformed type for \"elementId\" parameter of command takeElementScreenshot\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                \n                    at Browser.protocolCommand (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\topickcurrentdate.js:58:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Malformed type for \"elementId\" parameter of command takeElementScreenshot\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                ",
+    "statusTrace" : "Error: Malformed type for \"elementId\" parameter of command takeElementScreenshot\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                \n                    at Browser.protocolCommand (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\topickcurrentdate.js:58:13)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a85944cfa50a74f",
+      "name" : "Screenshot",
+      "source" : "9a85944cfa50a74f.png",
+      "type" : "image/png",
+      "size" : 575619
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testClass",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenshotofcamera"
+  }, {
+    "name" : "package",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5bc14a35af27dd.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "d5ca27da0043e313",
+  "name" : "screenshotofcamera",
+  "fullName" : "topickcurrentdate.screenshotofcamera",
+  "historyId" : "4ac452fac7abb22cbddfff37ac83c0d3",
+  "time" : {
+    "start" : 1649841991996,
+    "stop" : 1649842052023,
+    "duration" : 60027
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"topickcurrentdate screenshotofcamera\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\topickcurrentdate.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"topickcurrentdate screenshotofcamera\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\topickcurrentdate.js)\n                    at createTimeoutError (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testClass",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenshotofcamera"
+  }, {
+    "name" : "package",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5ca27da0043e313.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

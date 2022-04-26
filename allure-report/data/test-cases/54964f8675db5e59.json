@@ -1,0 +1,80 @@
+{
+  "uid" : "54964f8675db5e59",
+  "name" : "screenshotofcamera",
+  "fullName" : "topickcurrentdate.screenshotofcamera",
+  "historyId" : "4ac452fac7abb22cbddfff37ac83c0d3",
+  "time" : {
+    "start" : 1649837049486,
+    "stop" : 1649837062119,
+    "duration" : 12633
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Wrong parameters applied for takeElementScreenshot\n                Usage: takeElementScreenshot(elementId, scroll)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                  \"scroll\" (boolean): scroll into view the element. Default: true\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                ",
+  "statusTrace" : "Error: Wrong parameters applied for takeElementScreenshot\n                Usage: takeElementScreenshot(elementId, scroll)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                  \"scroll\" (boolean): scroll into view the element. Default: true\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                \n                    at Element.protocolCommand (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\command.js:32:19)\n                    at Element.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\topickcurrentdate.js:58:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Wrong parameters applied for takeElementScreenshot\n                Usage: takeElementScreenshot(elementId, scroll)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                  \"scroll\" (boolean): scroll into view the element. Default: true\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                ",
+    "statusTrace" : "Error: Wrong parameters applied for takeElementScreenshot\n                Usage: takeElementScreenshot(elementId, scroll)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                  \"scroll\" (boolean): scroll into view the element. Default: true\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                \n                    at Element.protocolCommand (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\command.js:32:19)\n                    at Element.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\topickcurrentdate.js:58:13)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d8179c685d70291",
+      "name" : "Screenshot",
+      "source" : "9d8179c685d70291.png",
+      "type" : "image/png",
+      "size" : 575591
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testClass",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenshotofcamera"
+  }, {
+    "name" : "package",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54964f8675db5e59.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

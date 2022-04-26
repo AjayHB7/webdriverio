@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649837049485' stop='1649837062121'>
+    <name>topickcurrentdate</name>
+    <title>topickcurrentdate</title>
+    <test-cases>
+        <test-case start='1649837049486' status='broken' stop='1649837062119'>
+            <name>screenshotofcamera</name>
+            <title>screenshotofcamera</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='68f8e85f-d295-40be-b19e-0cecfb8fc72e-attachment.png' type='image/png' size='575591'/>
+            </attachments>
+            <failure>
+                <message>Wrong parameters applied for takeElementScreenshot
+                Usage: takeElementScreenshot(elementId, scroll)
+                
+                Property Description:
+                  "elementId" (string): the id of an element returned in a previous call to Find Element(s)
+                  "scroll" (boolean): scroll into view the element. Default: true
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot
+                </message>
+                <stack-trace>Error: Wrong parameters applied for takeElementScreenshot
+                Usage: takeElementScreenshot(elementId, scroll)
+                
+                Property Description:
+                  "elementId" (string): the id of an element returned in a previous call to Find Element(s)
+                  "scroll" (boolean): scroll into view the element. Default: true
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot
+                
+                    at Element.protocolCommand (C:\Users\user\Desktop\webdriverio\node_modules\@wdio\runner\node_modules\webdriver\build\command.js:32:19)
+                    at Element.wrapCommandFn (C:\Users\user\Desktop\webdriverio\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (C:\Users\user\Desktop\webdriverio\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\user\Desktop\webdriverio\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\user\Desktop\webdriverio\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\user\Desktop\webdriverio\test\specs\topickcurrentdate.js:58:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -25,15 +25,16 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        // './test/specs/**/*.js'
+        "./test/specs/Actionclass.js"
         // './test/specs/demoTestScript.js'
     ],
 
     suites: {
-        smokesuite : [],
-        regressionsuite : []
-
-
+        smokesuite : [//
+    ],
+        regressionsuite : [//
+    ]
     },
 
     // Patterns to exclude.
@@ -57,7 +58,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 2,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -77,20 +78,20 @@ exports.config = {
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
     },
-    // {
+    {
     
-    //     // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-    //     // grid with only 5 firefox instances available you can make sure that not more than
-    //     // 5 instances get started at a time.
-    //     maxInstances: 5,
-    //     //
-    //     browserName: 'firefox',
-    //     acceptInsecureCerts: true
-    //     // If outputDir is provided WebdriverIO can capture driver session logs
-    //     // it is possible to configure which logTypes to include/exclude.
-    //     // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-    //     // excludeDriverLogs: ['bugreport', 'server'],
-    // },
+        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
+        // grid with only 5 firefox instances available you can make sure that not more than
+        // 5 instances get started at a time.
+        maxInstances: 5,
+        //
+        browserName: 'firefox',
+        acceptInsecureCerts: true
+        // If outputDir is provided WebdriverIO can capture driver session logs
+        // it is possible to configure which logTypes to include/exclude.
+        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
+        // excludeDriverLogs: ['bugreport', 'server'],
+    },
     // {
     
     //     // maxInstances can get overwritten per capability. So if you have an in-house Selenium
@@ -156,6 +157,7 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services: [
         'chromedriver'
+        // 'geckodriver'
         // ['selenium-standalone']
     ],
     
@@ -180,7 +182,7 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     
-        reporters:['spec',
+    reporters:['spec',
         
             ['allure', {
             outputDir: './_results_/allure-raw',
@@ -283,7 +285,7 @@ exports.config = {
 
         await browser.maximizeWindow();
 
-        await lp.loginToApplication("admin","admin")
+        // await lp.loginToApplication("admin","admin")
 
         console.log("logged in to application successfully");
 
@@ -316,7 +318,7 @@ exports.config = {
             await browser.takeScreenshot();
         }
                
-        await hp.logoutOfApplication();
+        // await hp.logoutOfApplication();
 
         console.log("logged from the apllication successfully");
 

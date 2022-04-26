@@ -7,7 +7,7 @@ class Webutil {
             let text = await element.getText()
             
             //textarray.push(text)
-           // console.log('===============text oof the element================'+text);
+           // console.log('===============text of the element================'+text);
 
 
             if (text == matchtext) {

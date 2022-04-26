@@ -10,7 +10,8 @@
         "@wdio/selenium-standalone-service": "^7.19.1",
         "@wdio/spec-reporter": "^7.19.1",
         "chromedriver": "^99.0.0",
-        "wdio-chromedriver-service": "^7.3.2"
+        "wdio-chromedriver-service": "^7.3.2",
+        "wdio-geckodriver-service": "^2.1.1"
     },
     "scripts": {
         "wdio": "wdio run wdio.conf.js"

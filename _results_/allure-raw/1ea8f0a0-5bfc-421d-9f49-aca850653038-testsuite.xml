@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649844356004' stop='1649844366866'>
+    <name>topickcurrentdate</name>
+    <title>topickcurrentdate</title>
+    <test-cases>
+        <test-case start='1649844356005' status='broken' stop='1649844366864'>
+            <name>screenshotofcamera</name>
+            <title>screenshotofcamera</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cb685ab9-18ba-4158-9764-249ec74379e0-attachment.png' type='image/png' size='2285'/>
+                <attachment title='Screenshot' source='4a8b4ce4-84a2-4ab5-a5a1-6e4045bb1e9c-attachment.png' type='image/png' size='4397'/>
+                <attachment title='Screenshot' source='767e8895-8b05-48fc-bc29-3a4a5f0dd6a4-attachment.png' type='image/png' size='3175'/>
+                <attachment title='Screenshot' source='47763863-c56e-4374-b989-114b31ce9cbc-attachment.png' type='image/png' size='575605'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'saveScreenshot')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'saveScreenshot')
+                    at Context.&lt;anonymous> (C:\Users\user\Desktop\webdriverio\test\specs\topickcurrentdate.js:63:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

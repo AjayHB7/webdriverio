@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649842519763' stop='1649842529340'>
+    <name>topickcurrentdate</name>
+    <title>topickcurrentdate</title>
+    <test-cases>
+        <test-case start='1649842519764' status='passed' stop='1649842529338'>
+            <name>screenshotofcamera</name>
+            <title>screenshotofcamera</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='400658eb-42cc-4c10-ae3e-7a77056cde3c-attachment.png' type='image/png' size='4177'/>
+                <attachment title='Screenshot' source='4dfb0501-4a09-4e5a-b0b2-d207865816a0-attachment.png' type='image/png' size='2285'/>
+                <attachment title='Screenshot' source='43faa0a7-a2c0-4b81-90e3-6882f0c8e589-attachment.png' type='image/png' size='4397'/>
+                <attachment title='Screenshot' source='35381067-2d8b-4eda-b36f-20fd06ff9486-attachment.png' type='image/png' size='3175'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,94 @@
+{
+  "uid" : "344b56b5b3e182cc",
+  "name" : "screenshotofcamera",
+  "fullName" : "topickcurrentdate.screenshotofcamera",
+  "historyId" : "4ac452fac7abb22cbddfff37ac83c0d3",
+  "time" : {
+    "start" : 1649841108506,
+    "stop" : 1649841122735,
+    "duration" : 14229
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d225cb867a93b664",
+      "name" : "Screenshot",
+      "source" : "d225cb867a93b664.png",
+      "type" : "image/png",
+      "size" : 575956
+    }, {
+      "uid" : "3107e22e7863a85d",
+      "name" : "Screenshot",
+      "source" : "3107e22e7863a85d.png",
+      "type" : "image/png",
+      "size" : 575956
+    }, {
+      "uid" : "e4964700faa768f5",
+      "name" : "Screenshot",
+      "source" : "e4964700faa768f5.png",
+      "type" : "image/png",
+      "size" : 575956
+    }, {
+      "uid" : "42d2fcfe4a0e3356",
+      "name" : "Screenshot",
+      "source" : "42d2fcfe4a0e3356.png",
+      "type" : "image/png",
+      "size" : 575956
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testClass",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenshotofcamera"
+  }, {
+    "name" : "package",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "344b56b5b3e182cc.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649837292882' stop='1649837299673'>
+    <name>topickcurrentdate</name>
+    <title>topickcurrentdate</title>
+    <test-cases>
+        <test-case start='1649837292883' status='failed' stop='1649837299671'>
+            <name>screenshotofcamera</name>
+            <title>screenshotofcamera</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0a57624f-cdc5-4e95-b9aa-fa90ec952171-attachment.png' type='image/png' size='575710'/>
+            </attachments>
+            <failure>
+                <message>Malformed type for "elementId" parameter of command takeElementScreenshot
+                Expected: string
+                Actual: object
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot
+                </message>
+                <stack-trace>Error: Malformed type for "elementId" parameter of command takeElementScreenshot
+                Expected: string
+                Actual: object
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot
+                
+                    at Browser.protocolCommand (C:\Users\user\Desktop\webdriverio\node_modules\@wdio\runner\node_modules\webdriver\build\command.js:53:23)
+                    at Browser.wrapCommandFn (C:\Users\user\Desktop\webdriverio\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Users\user\Desktop\webdriverio\test\specs\topickcurrentdate.js:58:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

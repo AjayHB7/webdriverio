@@ -1,8 +1,8 @@
 {
-  "total" : 1,
+  "total" : 3,
   "items" : [ {
-    "uid" : "8d0b92ede53d055507852ab66a9ffab2",
-    "name" : "createcontactwithlastname",
+    "uid" : "95c6f0458d4a55ba93ffb7d10701278a",
+    "name" : "getTriangleType",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -10,6 +10,28 @@
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
+    }
+  }, {
+    "uid" : "276d3fa8718dc6353fe74e85c9de31e5",
+    "name" : "booking",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1757eb529495976bfd4e8c2e766e506f",
+    "name" : "topickcurrentdate",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
     }
   } ]
 }

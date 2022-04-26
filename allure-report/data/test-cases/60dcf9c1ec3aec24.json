@@ -1,0 +1,80 @@
+{
+  "uid" : "60dcf9c1ec3aec24",
+  "name" : "flipkart",
+  "fullName" : "booking.flipkart",
+  "historyId" : "db41d9ebaf123dffed562a7a34ee484b",
+  "time" : {
+    "start" : 1649764432744,
+    "stop" : 1649764447736,
+    "duration" : 14992
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//input[@class='_1w3ZZo _2gKfhi _1WPSB8 _2mFmU7']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//input[@class='_1w3ZZo _2gKfhi _1WPSB8 _2mFmU7']\" because element wasn't found\n                    at implicitWait (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\practice2.js:19:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"//input[@class='_1w3ZZo _2gKfhi _1WPSB8 _2mFmU7']\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"//input[@class='_1w3ZZo _2gKfhi _1WPSB8 _2mFmU7']\" because element wasn't found\n                    at implicitWait (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\practice2.js:19:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7a856059479517dc",
+      "name" : "Screenshot",
+      "source" : "7a856059479517dc.png",
+      "type" : "image/png",
+      "size" : 912074
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "booking"
+  }, {
+    "name" : "testClass",
+    "value" : "booking"
+  }, {
+    "name" : "testMethod",
+    "value" : "flipkart"
+  }, {
+    "name" : "package",
+    "value" : "booking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60dcf9c1ec3aec24.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

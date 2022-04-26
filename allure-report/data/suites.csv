@@ -1,2 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Apr 08 14:56:00 IST 2022","Fri Apr 08 14:56:39 IST 2022","39216","","createcontactwithlastname","","createcontactwithlastname","createcontactwithlastnametest","createcontactwithlastnametest",""
+"passed","Wed Apr 13 13:03:58 IST 2022","Wed Apr 13 13:04:07 IST 2022","9566","","topickcurrentdate","","topickcurrentdate","currentdate","currentdate",""
+"passed","Wed Apr 13 12:54:09 IST 2022","Wed Apr 13 12:54:22 IST 2022","13584","","topickcurrentdate","","topickcurrentdate","to check checkbox","to check checkbox",""
+"broken","Tue Apr 12 17:24:48 IST 2022","Tue Apr 12 17:25:14 IST 2022","26032","","booking","","booking","flipkart","flipkart",""
+"passed","Wed Apr 13 14:57:53 IST 2022","Wed Apr 13 14:58:05 IST 2022","11319","","topickcurrentdate","","topickcurrentdate","screenshotofcamera","screenshotofcamera",""
+"broken","Tue Apr 12 10:47:15 IST 2022","Tue Apr 12 10:47:15 IST 2022","425","","getTriangleType","","getTriangleType","Should return the type of the triangle according to the values of each side","Should return the type of the triangle according to the values of each side",""

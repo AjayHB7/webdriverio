@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649844652496' stop='1649844666254'>
+    <name>topickcurrentdate</name>
+    <title>topickcurrentdate</title>
+    <test-cases>
+        <test-case start='1649844652497' status='broken' stop='1649844666252'>
+            <name>screenshotofcamera</name>
+            <title>screenshotofcamera</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e0b54869-3736-413b-aa27-b6b7eede95f3-attachment.png' type='image/png' size='4177'/>
+                <attachment title='Screenshot' source='db68e7bb-2931-4c29-8556-9b4b8b0d2e8d-attachment.png' type='image/png' size='2285'/>
+                <attachment title='Screenshot' source='f1bfb1d4-b0fe-4b63-b69c-42e5fda6af13-attachment.png' type='image/png' size='4397'/>
+                <attachment title='Screenshot' source='0ed2287b-18a8-4710-be03-1334e4bcf282-attachment.png' type='image/png' size='3175'/>
+                <attachment title='Screenshot' source='0ca88d51-919d-4f33-8155-9be7fed5bc36-attachment.png' type='image/png' size='575956'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'saveScreenshot')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'saveScreenshot')
+                    at Context.&lt;anonymous> (C:\Users\user\Desktop\webdriverio\test\specs\topickcurrentdate.js:65:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

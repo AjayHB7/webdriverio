@@ -1,0 +1,80 @@
+{
+  "uid" : "129dbbe0e1510e3c",
+  "name" : "Should return the type of the triangle according to the values of each side",
+  "fullName" : "getTriangleType.Should return the type of the triangle according to the values of each side",
+  "historyId" : "ebe1d43181f14858c7bd6ff4627710f0",
+  "time" : {
+    "start" : 1649740410307,
+    "stop" : 1649740430873,
+    "duration" : 20566
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "getTriangleType is not defined",
+  "statusTrace" : "ReferenceError: getTriangleType is not defined\n                    at C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\dataprovider.js:25:24\n                    at Array.forEach (<anonymous>)\n                    at Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\dataprovider.js:24:12)\n                    at Context.executeAsync (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "getTriangleType is not defined",
+    "statusTrace" : "ReferenceError: getTriangleType is not defined\n                    at C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\dataprovider.js:25:24\n                    at Array.forEach (<anonymous>)\n                    at Context.<anonymous> (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\dataprovider.js:24:12)\n                    at Context.executeAsync (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\user\\Desktop\\webdriverio\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "415b9a3377ac5371",
+      "name" : "Screenshot",
+      "source" : "415b9a3377ac5371.png",
+      "type" : "image/png",
+      "size" : 105998
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "getTriangleType"
+  }, {
+    "name" : "testClass",
+    "value" : "getTriangleType"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should return the type of the triangle according to the values of each side"
+  }, {
+    "name" : "package",
+    "value" : "getTriangleType"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "129dbbe0e1510e3c.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

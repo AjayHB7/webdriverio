@@ -1,0 +1,194 @@
+{
+  "uid" : "6fc0d6a81f712d1",
+  "name" : "screenshotofcamera",
+  "fullName" : "topickcurrentdate.screenshotofcamera",
+  "historyId" : "4ac452fac7abb22cbddfff37ac83c0d3",
+  "time" : {
+    "start" : 1649842073948,
+    "stop" : 1649842085267,
+    "duration" : 11319
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testClass",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenshotofcamera"
+  }, {
+    "name" : "package",
+    "value" : "topickcurrentdate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d5ca27da0043e313",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"topickcurrentdate screenshotofcamera\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\user\\Desktop\\webdriverio\\test\\specs\\topickcurrentdate.js)",
+      "time" : {
+        "start" : 1649841991996,
+        "stop" : 1649842052023,
+        "duration" : 60027
+      }
+    }, {
+      "uid" : "5608776d82a40db8",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command takeElementScreenshot\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                ",
+      "time" : {
+        "start" : 1649841450263,
+        "stop" : 1649841460996,
+        "duration" : 10733
+      }
+    }, {
+      "uid" : "10a7a208c6eecf1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649841221927,
+        "stop" : 1649841235193,
+        "duration" : 13266
+      }
+    }, {
+      "uid" : "3255a06337f24853",
+      "status" : "broken",
+      "statusDetails" : "camimgeles.takeScreenshot is not a function",
+      "time" : {
+        "start" : 1649841184087,
+        "stop" : 1649841196079,
+        "duration" : 11992
+      }
+    }, {
+      "uid" : "344b56b5b3e182cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649841108506,
+        "stop" : 1649841122735,
+        "duration" : 14229
+      }
+    }, {
+      "uid" : "fa36726600a49ea7",
+      "status" : "broken",
+      "statusDetails" : "camimgeles.moveTo is not a function",
+      "time" : {
+        "start" : 1649841022682,
+        "stop" : 1649841033617,
+        "duration" : 10935
+      }
+    }, {
+      "uid" : "f36af8581633d9ae",
+      "status" : "broken",
+      "statusDetails" : "camimgeles.moveTo is not a function",
+      "time" : {
+        "start" : 1649840966739,
+        "stop" : 1649840978446,
+        "duration" : 11707
+      }
+    }, {
+      "uid" : "890016504bc241de",
+      "status" : "broken",
+      "statusDetails" : "camimg is not defined",
+      "time" : {
+        "start" : 1649840840552,
+        "stop" : 1649840845936,
+        "duration" : 5384
+      }
+    }, {
+      "uid" : "a93121ee8db03d68",
+      "status" : "broken",
+      "statusDetails" : "camimg is not defined",
+      "time" : {
+        "start" : 1649840822933,
+        "stop" : 1649840829205,
+        "duration" : 6272
+      }
+    }, {
+      "uid" : "dabf806734083704",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command takeElementScreenshot\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                ",
+      "time" : {
+        "start" : 1649837521875,
+        "stop" : 1649837528164,
+        "duration" : 6289
+      }
+    }, {
+      "uid" : "dcbb90288d7cfccc",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command takeElementScreenshot\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                ",
+      "time" : {
+        "start" : 1649837292883,
+        "stop" : 1649837299671,
+        "duration" : 6788
+      }
+    }, {
+      "uid" : "f5bc14a35af27dd",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command takeElementScreenshot\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                ",
+      "time" : {
+        "start" : 1649837103980,
+        "stop" : 1649837109523,
+        "duration" : 5543
+      }
+    }, {
+      "uid" : "54964f8675db5e59",
+      "status" : "broken",
+      "statusDetails" : "Wrong parameters applied for takeElementScreenshot\n                Usage: takeElementScreenshot(elementId, scroll)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                  \"scroll\" (boolean): scroll into view the element. Default: true\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-take-element-screenshot\n                ",
+      "time" : {
+        "start" : 1649837049486,
+        "stop" : 1649837062119,
+        "duration" : 12633
+      }
+    }, {
+      "uid" : "a9e0b2022a6e8cf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649836418334,
+        "stop" : 1649836427281,
+        "duration" : 8947
+      }
+    }, {
+      "uid" : "3619fa1c7af1503a",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_CONNECTION_REFUSED\n                  (Session info: chrome=100.0.4896.75)",
+      "time" : {
+        "start" : 1649836376372,
+        "stop" : 1649836406211,
+        "duration" : 29839
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6fc0d6a81f712d1.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}
