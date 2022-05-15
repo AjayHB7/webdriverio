@@ -100,8 +100,6 @@ class Webutil {
         return DateInFormat_Time;
         
     }
-
-
 }
 
 module.exports = new Webutil();

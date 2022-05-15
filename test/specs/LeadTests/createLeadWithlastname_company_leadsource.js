@@ -2,7 +2,7 @@ let hp = require("../../pageobjects/Home/vtigerHomePage")
 let lp = require("../../pageobjects/Lead/leadPage")
 let cnlp = require("../../pageobjects/Lead/CreateNewLeadPage")
 let lip = require("../../pageobjects/Lead/LeadInfoPage")
-let wlib = require("../../../GenericUtilites/webutility")
+let wlib = import("../../../GenericUtilites/webutility")
 
 const leadPage = require("../../pageobjects/Lead/leadPage")
 

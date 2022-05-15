@@ -4,7 +4,7 @@ let cp = require('../pageobjects/Contacts/ContactsPage')
 let cnc = require('../pageobjects/Contacts/CreateNewContactsPage')
 
 
-describe('dropdown', () => {
+describe('dropdown', async () => {
     
     it.skip('getting text from element dropdown',async () => {
         let elementsArray = await $$("//select[@id = 'qccombo']//option")
