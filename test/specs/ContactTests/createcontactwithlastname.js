@@ -8,6 +8,7 @@ const { assert } = require("chai")
 describe('createcontactwithlastname', () => {
     it('createcontactwithlastnametest',async () => {
 
+        
         await hp.clickOnContactslnk();
         await cp.clickOnCreateContactLookUpImg();
         await cncp.createContactWithLastName("asus"+wlib.randomnumber())
